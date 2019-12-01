@@ -1,0 +1,93 @@
+BUILD_CONFIGURATIONS:
+  Debug: :debug
+  Release: :release
+CACHE_KEYS:
+  Action:
+    BUILD_SETTINGS_CHECKSUM:
+      Action: eae23bceaa5613366ee452044c100de0
+    CHECKSUM: 0d14986aad0f1330aa27ce65d0cdeaacbb63d91c
+    SPECS:
+      - Action (4.0.0)
+  PINCache:
+    BUILD_SETTINGS_CHECKSUM:
+      PINCache: d265b4819f9e97f9a37b2f74b28156a5
+    CHECKSUM: d195fdba255283f7e9900a55e3cced377f431f9b
+    SPECS:
+      - PINCache (3.0.1-beta.6)
+      - PINCache/Arc-exception-safe (3.0.1-beta.6)
+      - PINCache/Core (3.0.1-beta.6)
+  PINOperation:
+    BUILD_SETTINGS_CHECKSUM:
+      PINOperation: 7520fff2d6884f926a061df04d147500
+    CHECKSUM: 24b774353ca248fcf87d67b2d61eef42087c125a
+    SPECS:
+      - PINOperation (1.1.2)
+  PINRemoteImage:
+    BUILD_SETTINGS_CHECKSUM:
+      PINRemoteImage: 480ea14dfb73a4da10e0dea418957deb
+    CHECKSUM: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+    SPECS:
+      - PINRemoteImage/Core (3.0.0-beta.13)
+      - PINRemoteImage/iOS (3.0.0-beta.13)
+      - PINRemoteImage/PINCache (3.0.0-beta.13)
+  Pods-RxSwift-programming:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 644ed9c67e64783b79e3770eb6ea7845
+      Release: 644ed9c67e64783b79e3770eb6ea7845
+  Pods-RxSwift-programmingTests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: 3f27c50c73494049eba5eecfff14e50b
+      Release: 3f27c50c73494049eba5eecfff14e50b
+  Pods-RxSwift-programmingUITests:
+    BUILD_SETTINGS_CHECKSUM:
+      Debug: b993ef31ff9fc64319ca04f4c102d53f
+      Release: b993ef31ff9fc64319ca04f4c102d53f
+  RxBlocking:
+    BUILD_SETTINGS_CHECKSUM:
+      RxBlocking: 1c57d1ef718b249388141d3a040023fc
+    CHECKSUM: c67185d26498ea3cbe3e121917c3c16739e43123
+    SPECS:
+      - RxBlocking (5.0.0)
+  RxCocoa:
+    BUILD_SETTINGS_CHECKSUM:
+      RxCocoa: 25ba4b1426934a3dc5476d0a0f1eda59
+    CHECKSUM: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+    SPECS:
+      - RxCocoa (5.0.0)
+  RxRelay:
+    BUILD_SETTINGS_CHECKSUM:
+      RxRelay: e6075cd05ec0f8417173d44618a736a0
+    CHECKSUM: 4f7409406a51a55cd88483f21ed898c234d60f18
+    SPECS:
+      - RxRelay (5.0.0)
+  RxSwift:
+    BUILD_SETTINGS_CHECKSUM:
+      RxSwift: 25869fec97c7d689320a01a43b016d77
+    CHECKSUM: 8b0671caa829a763bbce7271095859121cbd895f
+    SPECS:
+      - RxSwift (5.0.0)
+  RxTest:
+    BUILD_SETTINGS_CHECKSUM:
+      RxTest: 98047d9ee73b68bc3a1988dbc2373a45
+    CHECKSUM: 4349afe98f564e0a9bc19063368904622d17d49a
+    SPECS:
+      - RxTest (5.0.0)
+  RxTexture:
+    BUILD_SETTINGS_CHECKSUM:
+      RxTexture: 78ce9e57885933f149915622e1fea31f
+    CHECKSUM: 596b5838be8bdf4a17df61ed64f23fc52a14391a
+    SPECS:
+      - RxTexture (0.2.0)
+  Texture:
+    BUILD_SETTINGS_CHECKSUM:
+      Texture: 16385e61ed7114ece6e23756712559f3
+    CHECKSUM: 8ecf6984065a1e54f06bf97b349ecca28582acd7
+    SPECS:
+      - Texture (2.8.1)
+      - Texture/AssetsLibrary (2.8.1)
+      - Texture/Core (2.8.1)
+      - Texture/MapKit (2.8.1)
+      - Texture/Photos (2.8.1)
+      - Texture/PINRemoteImage (2.8.1)
+      - Texture/Video (2.8.1)
+OBJECT_VERSION: 51
