@@ -10,6 +10,7 @@
 		0DE6B12741C48D1E56EBD4F2 /* Pods_RxSwift_programmingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682DBDEB7C7BEB9FB0499D8D /* Pods_RxSwift_programmingUITests.framework */; };
 		47784C3AAD9F921BB4E60B7A /* Pods_RxSwift_programming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A2F8F1E25209B09B4CF40B /* Pods_RxSwift_programming.framework */; };
 		9063C1092393BA930059176C /* Observables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063C1082393BA930059176C /* Observables.swift */; };
+		9063C10B2393C7520059176C /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063C10A2393C7520059176C /* Subjects.swift */; };
 		909DA39E2393B400005F7AEC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DA39D2393B400005F7AEC /* Common.swift */; };
 		90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5642393B09E006CD8A1 /* AppDelegate.swift */; };
 		90A6A5672393B09E006CD8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5662393B09E006CD8A1 /* SceneDelegate.swift */; };
@@ -48,6 +49,7 @@
 		682DBDEB7C7BEB9FB0499D8D /* Pods_RxSwift_programmingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_programmingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		703700DD2C14A2E375D34961 /* Pods-RxSwift-programmingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-programmingUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-programmingUITests/Pods-RxSwift-programmingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9063C1082393BA930059176C /* Observables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observables.swift; sourceTree = "<group>"; };
+		9063C10A2393C7520059176C /* Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
 		909DA39D2393B400005F7AEC /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		909DA3A12393B4C8005F7AEC /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90A6A5612393B09E006CD8A1 /* RxSwift-programming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-programming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,6 +115,7 @@
 			children = (
 				909DA39D2393B400005F7AEC /* Common.swift */,
 				9063C1082393BA930059176C /* Observables.swift */,
+				9063C10A2393C7520059176C /* Subjects.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9063C10B2393C7520059176C /* Subjects.swift in Sources */,
 				90A6A5692393B09E006CD8A1 /* ViewController.swift in Sources */,
 				90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */,
 				9063C1092393BA930059176C /* Observables.swift in Sources */,

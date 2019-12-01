@@ -15,7 +15,8 @@ class ViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    observables1()
+//    observables1()
+    subjects()
     
   }
   
