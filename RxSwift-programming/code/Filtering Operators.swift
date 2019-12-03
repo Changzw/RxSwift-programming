@@ -37,4 +37,6 @@ func filteringOperators() {
     strikes.onNext("X2")
     strikes.onNext("X3")
   }
+  
+  
 }

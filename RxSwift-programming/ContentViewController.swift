@@ -36,8 +36,9 @@ class ContentViewController: UITableViewController {
   @objc func test() {
     print(#function)
 //    observables()
-    subjects()
-    filteringOperators()
+//    subjects()
+//    filteringOperators()
+    transformingOperators()
   }
   
   // MARK: - Table view data source

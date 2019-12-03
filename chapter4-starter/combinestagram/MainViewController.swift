@@ -97,6 +97,7 @@ class MainViewController: UIViewController {
     
     photosViewController
     .selectedPhotos
+    .share()// chapter 6
       .subscribe(onNext: { (image) in
         let newImages = self.images.value + [image]
         self.images.accept(newImages)

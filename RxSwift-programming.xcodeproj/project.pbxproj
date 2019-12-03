@@ -13,6 +13,8 @@
 		9063C10B2393C7520059176C /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063C10A2393C7520059176C /* Subjects.swift */; };
 		907C92F82394D8A700205367 /* Filtering Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C92F72394D8A700205367 /* Filtering Operators.swift */; };
 		907C92FB2394DC1A00205367 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C92FA2394DC1A00205367 /* ContentViewController.swift */; };
+		9091B2ED239625BC00DAF380 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9091B2EC239625BC00DAF380 /* README.md */; };
+		9091B2F32396407200DAF380 /* Transforming Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091B2F22396407200DAF380 /* Transforming Operators.swift */; };
 		909DA39E2393B400005F7AEC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DA39D2393B400005F7AEC /* Common.swift */; };
 		90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5642393B09E006CD8A1 /* AppDelegate.swift */; };
 		90A6A5672393B09E006CD8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5662393B09E006CD8A1 /* SceneDelegate.swift */; };
@@ -53,6 +55,8 @@
 		9063C10A2393C7520059176C /* Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
 		907C92F72394D8A700205367 /* Filtering Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering Operators.swift"; sourceTree = "<group>"; };
 		907C92FA2394DC1A00205367 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		9091B2EC239625BC00DAF380 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9091B2F22396407200DAF380 /* Transforming Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transforming Operators.swift"; sourceTree = "<group>"; };
 		909DA39D2393B400005F7AEC /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		909DA3A12393B4C8005F7AEC /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90A6A5612393B09E006CD8A1 /* RxSwift-programming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-programming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +123,7 @@
 				9063C1082393BA930059176C /* Observables.swift */,
 				9063C10A2393C7520059176C /* Subjects.swift */,
 				907C92F72394D8A700205367 /* Filtering Operators.swift */,
+				9091B2F22396407200DAF380 /* Transforming Operators.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				90A6A5722393B0A1006CD8A1 /* LaunchScreen.storyboard */,
 				90A6A5752393B0A1006CD8A1 /* Info.plist */,
 				90A6A56D2393B09E006CD8A1 /* RxSwift_programming.xcdatamodeld */,
+				9091B2EC239625BC00DAF380 /* README.md */,
 			);
 			path = "RxSwift-programming";
 			sourceTree = "<group>";
@@ -312,6 +318,7 @@
 			files = (
 				90A6A5742393B0A1006CD8A1 /* LaunchScreen.storyboard in Resources */,
 				90A6A5712393B0A1006CD8A1 /* Assets.xcassets in Resources */,
+				9091B2ED239625BC00DAF380 /* README.md in Resources */,
 				90A6A56C2393B09E006CD8A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,6 +452,7 @@
 				9063C1092393BA930059176C /* Observables.swift in Sources */,
 				907C92FB2394DC1A00205367 /* ContentViewController.swift in Sources */,
 				90A6A56F2393B09E006CD8A1 /* RxSwift_programming.xcdatamodeld in Sources */,
+				9091B2F32396407200DAF380 /* Transforming Operators.swift in Sources */,
 				909DA39E2393B400005F7AEC /* Common.swift in Sources */,
 				907C92F82394D8A700205367 /* Filtering Operators.swift in Sources */,
 				90A6A5672393B09E006CD8A1 /* SceneDelegate.swift in Sources */,

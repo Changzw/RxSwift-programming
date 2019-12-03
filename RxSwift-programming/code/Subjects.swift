@@ -32,6 +32,7 @@ accept .next events. You cannot add a .completed or .error event onto relays at 
 func subjects() {
 //  hot signal
   let bag = DisposeBag()
+
 //  MARK: PublishSubject
   example("PublishSubject") {
     let subject = PublishSubject<Int>()
