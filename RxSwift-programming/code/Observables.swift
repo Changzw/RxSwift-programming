@@ -9,7 +9,7 @@
 import Foundation
 import RxSwift
 
-func observables1() {
+func observables() {
   let bag = DisposeBag()
   
 //MARK: just, of, from: array -> observable sequence

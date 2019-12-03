@@ -83,6 +83,18 @@ func subjects() {
   }
   
 //  you add a value onto a relay by using the accept(_:) method.
+  /*
+   Unlike other subjects (and observables in general),
+   you add a value onto a relay by using the accept(_:) method.
+   In other words, you don’t use onNext(_:).
+   This is due to the fact relays can only accept values,
+   and you cannot add a .error or .completed event onto them.
+   
+   A PublishRelay wraps a PublishSubject and a BehaviorRelay wraps a BehaviorSubject.
+   What sets relays apart from their wrapped subjects is that they are guaranteed to never
+   
+   terminate.
+   */
   example("PublishRelay") {
     let relay = PublishRelay<String>()
     relay.accept("toggling")
@@ -91,6 +103,7 @@ func subjects() {
       .disposed(by: bag)
     relay.accept("1")
   }
+  
   
   example("BehaviorRelay") {
     let relay = BehaviorRelay(value: "Initial value")

@@ -16,6 +16,7 @@ target 'RxSwift-programming' do
   pod 'RxSwift', '~> 5.0' #, :binary=>true
   pod 'RxCocoa', '~> 5.0' #, :binary=>true
   pod 'Action', '4.0'     #, :binary=>true
+  pod 'SnapKit'
 #  pod 'RxTexture'         #, :binary=>true
 
   target 'RxSwift-programmingTests' do
