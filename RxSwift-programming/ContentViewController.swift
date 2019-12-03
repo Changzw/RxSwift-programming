@@ -11,9 +11,7 @@ import UIKit
 class ContentViewController: UITableViewController {
 //  let leftBarItem = UIBarButtonItem(title: "Test", style: .plain, target: self, action: #selector(test))
   let testButton = UIButton(type: .system)
-  let chapters = [
-    "Observables & Subjects in Practice"
-  ]
+  let chapters: [String] = []
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -23,6 +21,8 @@ class ContentViewController: UITableViewController {
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem
+    
+    test()
   }
   
   func setupUI() {
@@ -36,7 +36,8 @@ class ContentViewController: UITableViewController {
   @objc func test() {
     print(#function)
 //    observables()
-//    subjects()
+    subjects()
+    filteringOperators()
   }
   
   // MARK: - Table view data source
@@ -54,17 +55,13 @@ class ContentViewController: UITableViewController {
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: NSStringFromClass(UITableViewCell.self), for: indexPath)
-    cell.textLabel?.text = chapters[indexPath.row]
-    
+
     return cell
   }
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
     if indexPath.row == 0 {
-      let vc = ImageCollageViewController()
-      vc.view.backgroundColor = .white
-      navigationController?.pushViewController(vc, animated: true)
     }
   }
   

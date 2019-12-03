@@ -11,13 +11,8 @@
 		47784C3AAD9F921BB4E60B7A /* Pods_RxSwift_programming.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A2F8F1E25209B09B4CF40B /* Pods_RxSwift_programming.framework */; };
 		9063C1092393BA930059176C /* Observables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063C1082393BA930059176C /* Observables.swift */; };
 		9063C10B2393C7520059176C /* Subjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9063C10A2393C7520059176C /* Subjects.swift */; };
-		907C92F82394D8A700205367 /* Observables & Subjects in Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C92F72394D8A700205367 /* Observables & Subjects in Practice.swift */; };
+		907C92F82394D8A700205367 /* Filtering Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C92F72394D8A700205367 /* Filtering Operators.swift */; };
 		907C92FB2394DC1A00205367 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C92FA2394DC1A00205367 /* ContentViewController.swift */; };
-		907C92FE2394FCF400205367 /* ImageCollageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C92FC2394FCF400205367 /* ImageCollageViewController.swift */; };
-		907C92FF2394FCF400205367 /* ImageCollageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907C92FD2394FCF400205367 /* ImageCollageViewController.xib */; };
-		907C93012395019D00205367 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C93002395019D00205367 /* PhotosViewController.swift */; };
-		907C9303239502AF00205367 /* PhotosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907C9302239502AF00205367 /* PhotosViewController.xib */; };
-		907C9306239503BF00205367 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907C9304239503BF00205367 /* PhotoCell.swift */; };
 		909DA39E2393B400005F7AEC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DA39D2393B400005F7AEC /* Common.swift */; };
 		90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5642393B09E006CD8A1 /* AppDelegate.swift */; };
 		90A6A5672393B09E006CD8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5662393B09E006CD8A1 /* SceneDelegate.swift */; };
@@ -56,13 +51,8 @@
 		703700DD2C14A2E375D34961 /* Pods-RxSwift-programmingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-programmingUITests.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-programmingUITests/Pods-RxSwift-programmingUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9063C1082393BA930059176C /* Observables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observables.swift; sourceTree = "<group>"; };
 		9063C10A2393C7520059176C /* Subjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subjects.swift; sourceTree = "<group>"; };
-		907C92F72394D8A700205367 /* Observables & Subjects in Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Observables & Subjects in Practice.swift"; sourceTree = "<group>"; };
+		907C92F72394D8A700205367 /* Filtering Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Filtering Operators.swift"; sourceTree = "<group>"; };
 		907C92FA2394DC1A00205367 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
-		907C92FC2394FCF400205367 /* ImageCollageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollageViewController.swift; sourceTree = "<group>"; };
-		907C92FD2394FCF400205367 /* ImageCollageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollageViewController.xib; sourceTree = "<group>"; };
-		907C93002395019D00205367 /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
-		907C9302239502AF00205367 /* PhotosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosViewController.xib; sourceTree = "<group>"; };
-		907C9304239503BF00205367 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		909DA39D2393B400005F7AEC /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		909DA3A12393B4C8005F7AEC /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90A6A5612393B09E006CD8A1 /* RxSwift-programming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-programming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,25 +115,12 @@
 		9063C1072393BA780059176C /* code */ = {
 			isa = PBXGroup;
 			children = (
-				907C92F92394DBD000205367 /* Observables & Subjects in Practice */,
 				909DA39D2393B400005F7AEC /* Common.swift */,
 				9063C1082393BA930059176C /* Observables.swift */,
 				9063C10A2393C7520059176C /* Subjects.swift */,
-				907C92F72394D8A700205367 /* Observables & Subjects in Practice.swift */,
+				907C92F72394D8A700205367 /* Filtering Operators.swift */,
 			);
 			path = code;
-			sourceTree = "<group>";
-		};
-		907C92F92394DBD000205367 /* Observables & Subjects in Practice */ = {
-			isa = PBXGroup;
-			children = (
-				907C92FC2394FCF400205367 /* ImageCollageViewController.swift */,
-				907C92FD2394FCF400205367 /* ImageCollageViewController.xib */,
-				907C93002395019D00205367 /* PhotosViewController.swift */,
-				907C9302239502AF00205367 /* PhotosViewController.xib */,
-				907C9304239503BF00205367 /* PhotoCell.swift */,
-			);
-			path = "Observables & Subjects in Practice";
 			sourceTree = "<group>";
 		};
 		909DA3A02393B4C8005F7AEC /* playgrounds */ = {
@@ -333,10 +310,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				907C92FF2394FCF400205367 /* ImageCollageViewController.xib in Resources */,
 				90A6A5742393B0A1006CD8A1 /* LaunchScreen.storyboard in Resources */,
 				90A6A5712393B0A1006CD8A1 /* Assets.xcassets in Resources */,
-				907C9303239502AF00205367 /* PhotosViewController.xib in Resources */,
 				90A6A56C2393B09E006CD8A1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,16 +440,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				907C92FE2394FCF400205367 /* ImageCollageViewController.swift in Sources */,
-				907C93012395019D00205367 /* PhotosViewController.swift in Sources */,
 				9063C10B2393C7520059176C /* Subjects.swift in Sources */,
 				90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */,
 				9063C1092393BA930059176C /* Observables.swift in Sources */,
 				907C92FB2394DC1A00205367 /* ContentViewController.swift in Sources */,
 				90A6A56F2393B09E006CD8A1 /* RxSwift_programming.xcdatamodeld in Sources */,
 				909DA39E2393B400005F7AEC /* Common.swift in Sources */,
-				907C92F82394D8A700205367 /* Observables & Subjects in Practice.swift in Sources */,
-				907C9306239503BF00205367 /* PhotoCell.swift in Sources */,
+				907C92F82394D8A700205367 /* Filtering Operators.swift in Sources */,
 				90A6A5672393B09E006CD8A1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

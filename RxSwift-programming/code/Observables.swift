@@ -117,7 +117,8 @@ func observables() {
   }
   
   //MARK: Deffer
-  //  Rather than creating an observable that waits around for subscribers, it’s possible to create observable factories that vend a new observable to each subscriber.
+  //  Rather than creating an observable that waits around for subscribers,
+//  it’s possible to create observable factories that vend a new observable to each subscriber.
   example("deffered") {
     var flip = false
     let factory: Observable<Int> = Observable.deferred {
