@@ -4,6 +4,7 @@
 .DS_Store
 Podfile.lock
 ./chapter4-starter/Pods/
+./chapter8-starter/Pods/
 
 ## Build generated
 build/
