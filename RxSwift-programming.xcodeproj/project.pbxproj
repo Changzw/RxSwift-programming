@@ -16,6 +16,7 @@
 		9091B2ED239625BC00DAF380 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9091B2EC239625BC00DAF380 /* README.md */; };
 		9091B2F32396407200DAF380 /* Transforming Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091B2F22396407200DAF380 /* Transforming Operators.swift */; };
 		9091B2F7239711C300DAF380 /* Combining Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091B2F6239711C300DAF380 /* Combining Operators.swift */; };
+		9091B2F923975A1200DAF380 /* Time-Based Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9091B2F823975A1200DAF380 /* Time-Based Operators.swift */; };
 		909DA39E2393B400005F7AEC /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909DA39D2393B400005F7AEC /* Common.swift */; };
 		90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5642393B09E006CD8A1 /* AppDelegate.swift */; };
 		90A6A5672393B09E006CD8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A6A5662393B09E006CD8A1 /* SceneDelegate.swift */; };
@@ -59,8 +60,9 @@
 		9091B2EC239625BC00DAF380 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		9091B2F22396407200DAF380 /* Transforming Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transforming Operators.swift"; sourceTree = "<group>"; };
 		9091B2F6239711C300DAF380 /* Combining Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combining Operators.swift"; sourceTree = "<group>"; };
+		9091B2F823975A1200DAF380 /* Time-Based Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Time-Based Operators.swift"; sourceTree = "<group>"; };
 		909DA39D2393B400005F7AEC /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
-		909DA3A12393B4C8005F7AEC /* Observables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Observables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		909DA3A12393B4C8005F7AEC /* Time-Based Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Time-Based Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		90A6A5612393B09E006CD8A1 /* RxSwift-programming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-programming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90A6A5642393B09E006CD8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90A6A5662393B09E006CD8A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				907C92F72394D8A700205367 /* Filtering Operators.swift */,
 				9091B2F22396407200DAF380 /* Transforming Operators.swift */,
 				9091B2F6239711C300DAF380 /* Combining Operators.swift */,
+				9091B2F823975A1200DAF380 /* Time-Based Operators.swift */,
 			);
 			path = code;
 			sourceTree = "<group>";
@@ -134,7 +137,7 @@
 		909DA3A02393B4C8005F7AEC /* playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				909DA3A12393B4C8005F7AEC /* Observables.playground */,
+				909DA3A12393B4C8005F7AEC /* Time-Based Operators.playground */,
 			);
 			path = playgrounds;
 			sourceTree = "<group>";
@@ -452,6 +455,7 @@
 			files = (
 				9063C10B2393C7520059176C /* Subjects.swift in Sources */,
 				90A6A5652393B09E006CD8A1 /* AppDelegate.swift in Sources */,
+				9091B2F923975A1200DAF380 /* Time-Based Operators.swift in Sources */,
 				9063C1092393BA930059176C /* Observables.swift in Sources */,
 				907C92FB2394DC1A00205367 /* ContentViewController.swift in Sources */,
 				90A6A56F2393B09E006CD8A1 /* RxSwift_programming.xcdatamodeld in Sources */,
