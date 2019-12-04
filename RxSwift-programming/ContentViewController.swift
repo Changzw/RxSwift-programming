@@ -38,7 +38,8 @@ class ContentViewController: UITableViewController {
 //    observables()
 //    subjects()
 //    filteringOperators()
-    transformingOperators()
+//    transformingOperators()
+    combiningOperators()
   }
   
   // MARK: - Table view data source
