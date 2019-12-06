@@ -11,7 +11,9 @@ import UIKit
 class ContentViewController: UITableViewController {
 //  let leftBarItem = UIBarButtonItem(title: "Test", style: .plain, target: self, action: #selector(test))
   let testButton = UIButton(type: .system)
-  let chapters: [String] = []
+  let chapters: [String] = [
+    "Time based operators",
+  ]
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -57,13 +59,19 @@ class ContentViewController: UITableViewController {
   
   override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let cell = tableView.dequeueReusableCell(withIdentifier: NSStringFromClass(UITableViewCell.self), for: indexPath)
-
+    cell.textLabel?.text = chapters[indexPath.row]
     return cell
   }
   
   override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     tableView.deselectRow(at: indexPath, animated: true)
+    var vc: UIViewController?
     if indexPath.row == 0 {
+      vc = TimeBasedOperatorsViewController()
+    }
+    
+    if let vc = vc {
+      navigationController?.pushViewController(vc, animated: true)
     }
   }
   
