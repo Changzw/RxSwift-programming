@@ -7,6 +7,7 @@ Podfile.lock
 ./chapter8-starter/Pods/
 ./chapter10-starter/Pods/
 ./chapter12-starter-rxcocoa/Pods/
+./chapter13-starter-rxcocoa/Pods/
 
 ## Build generated
 build/
